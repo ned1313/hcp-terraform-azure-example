@@ -19,3 +19,8 @@ variable "environment" {
   type = string
   description = "(Required) Environment tag for resources."
 }
+
+variable "project" {
+  type = string
+  description = "Project identifier"
+}
